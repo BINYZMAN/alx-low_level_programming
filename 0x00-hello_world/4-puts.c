@@ -1,15 +1,11 @@
 #include <stdio.h>
-
+/**
+* main - to be called
+* return:0 for the int
+*/
 int main(void)
 {
-/**
- * This is the preferred style for multi-line
- * comments in C source code.
- * Please use it consistently.
- * Description:  A code that prints message,
- * with beginning and ending almost-blank lines.
- */
-char str[] = "\"""Programming is like building a multilingual puzzle";
-puts(str); 
-return (0);
+puts("\"""Programming is like 
+building a multilingual puzzle"); 
+return (0) ;
 }
