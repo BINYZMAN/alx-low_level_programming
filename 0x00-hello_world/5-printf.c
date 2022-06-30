@@ -2,8 +2,8 @@
 #include <string.h>             
 int main (void)
 {
-/* initalizing strg */
-char strg[] = "with proper grammar, but the outcome is a piece of art,"/* printing output */
+printf("with proper grammar, but the 
+outcome is a piece of art,\n")
 puts(strg);        
 return (0);
 }			
