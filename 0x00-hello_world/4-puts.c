@@ -2,8 +2,7 @@
 
 int main(void)
 {
-char str[] = "\"""Programming is like";
-char str2[] = "building a multilingual puzzle";
-puts(str,str2); 
+char str[] = "\"""Programming is like building a multilingual puzzle";
+puts(str); 
 return (0);
 }
