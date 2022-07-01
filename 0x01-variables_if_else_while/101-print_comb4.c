@@ -16,7 +16,7 @@ if (j > i)
 {
 for (k = 0; k <= 9; k++)
 {
-if (k > j )
+if (k > j)
 {
 putchar((i) + '0');
 putchar((j) + '0');
