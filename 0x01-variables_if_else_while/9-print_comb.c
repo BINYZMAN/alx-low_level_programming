@@ -11,7 +11,7 @@ while (ch < 10)
 {
 putchar((ch) + '0');
 putchar(44);
-putchar( );
+putchar(9);
 ch++;
 }
 putchar('\n');
