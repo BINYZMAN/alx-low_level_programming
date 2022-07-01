@@ -14,7 +14,7 @@ if (num  == 9 )
 {
 for (ch = 'a'; ch <= 'f'; ch++)
 putchar(ch);
-brack;
+break;
 }
 putchar('\n');
 return (0);
