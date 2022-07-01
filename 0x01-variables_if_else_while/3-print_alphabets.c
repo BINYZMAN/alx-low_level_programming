@@ -7,10 +7,14 @@ int main(void)
 {
 char ch;
 for (ch= ‘a’; ch<= ‘z’; ch++)
+{
 putchar(ch);
 if (ch=='z')
+{
 for (ch= ‘A’; ch<= ‘Z’; ch++)
 putchar(ch);
+}
+}
 getch();
 return (0);
 }
