@@ -11,6 +11,7 @@ while (ch < 10)
 {
 putchar((ch) + '0');
 putchar(44);
+if (ch != 9)
 putchar(32);
 ch++;
 }
