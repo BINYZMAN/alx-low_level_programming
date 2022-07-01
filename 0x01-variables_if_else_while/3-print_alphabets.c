@@ -12,7 +12,14 @@ putchar(ch);
 if (ch == 'z')
 {
 for (ch = 'A'; ch <= 'Z'; ch++)
+{
 putchar(ch);
+if (ch == 'Z')
+{
+  ch=z;
+  brack;
+}
+}
 }
 }
 putchar('\n');
