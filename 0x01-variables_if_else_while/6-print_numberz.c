@@ -7,7 +7,7 @@ int main(void)
 {
 char ch;
 ch=0;
-while (ch<10)
+while (ch < 10)
 {
 putchar(ch);
 ch++;
