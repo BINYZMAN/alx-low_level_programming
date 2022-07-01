@@ -15,8 +15,11 @@ if (j > i)
 {
 putchar((i) + '0');
 putchar((j) + '0');
+if (i != 8 || j !=9)
+{
 putchar(44);
 putchar(32);
+}
 }
 }
 }
