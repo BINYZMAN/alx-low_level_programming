@@ -10,7 +10,7 @@ ch = 0;
 while (ch < 10)
 {
 putchar((ch) + '0');
-putchar(',' + '0');
+putchar(',' + '44');
 ch++;
 }
 putchar('\n');
