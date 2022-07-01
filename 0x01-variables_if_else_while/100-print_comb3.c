@@ -15,7 +15,7 @@ for (j = 0; j <= 9; j++)
 if (j > i)
 {
 putchar((j) + '0');
-putchar(', ');
+putchar(", ");
 }
 }
 }
