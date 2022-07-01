@@ -14,8 +14,9 @@ if (ch == 'z')
 for (ch = 'A'; ch <= 'Z'; ch++)
 putchar(ch);
 if (ch == 'Z')
- ch = 'z';
+ch = 'z';
 break;
+}
 }
 putchar('\n');
 return (0);
