@@ -22,7 +22,10 @@ putchar((l) + '0');
 putchar(32);
 putchar((i) + '0');
 putchar((j) + '0');
-if (k !=9 && l !=8 && i != 9 && l != 9)
+if (k == 9 && l == 8 && i == 9 && l == 9)
+{
+}
+else
 {
 putchar(44);
 putchar(32);
