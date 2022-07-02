@@ -9,7 +9,6 @@ int i;
 int j;
 int k;
 int l;
-int a = 0;
 for (k = 0; k <= 9; k++)
 {
 for (l = 0; l <= 9; l++)
