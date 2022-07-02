@@ -20,7 +20,10 @@ for (j = 0; j <= 9; j++)
 if (k == 0 && l == 0 && i == 0 && j == 0)
 j = 1;
 if (k == 0 && l == 1 && i == 0 && j == 0)
-break;
+{
+}
+else
+{
 putchar((k) + '0');
 putchar((l) + '0');
 putchar(32);
@@ -28,6 +31,7 @@ putchar((i) + '0');
 putchar((j) + '0');
 putchar(44);
 putchar(32);
+}
 }
 }
 }
