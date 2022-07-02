@@ -18,8 +18,6 @@ for (i = k; i <= 9; i++)
 for (j = l; j <= 9; j++)
 {
 j = l + 1;
-else
-{
 putchar((k) + '0');
 putchar((l) + '0');
 putchar(32);
@@ -29,7 +27,6 @@ if (k !=9 && l !=8 && i != 9 && l != 9)
 {
 putchar(44);
 putchar(32);
-}
 }
 }
 }
