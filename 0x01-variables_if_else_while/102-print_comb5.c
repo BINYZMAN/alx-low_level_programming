@@ -18,7 +18,7 @@ for (i = 0; i <= 9; i++)
 for (j = 0; j <= 9; j++)
 {
 if (k == 0 && l == 0 && i == 0 && j == 0)
-break;
+j = 1;
 if (k == 0 && l == 1 && i == 0 && j == 0)
 break;
 putchar((k) + '0');
