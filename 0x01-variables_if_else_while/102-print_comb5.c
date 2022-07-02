@@ -22,9 +22,9 @@ if (k != i || j != l)
 putchar((k) + '0');
 putchar((l) + '0');
 putchar(32);
-if (k >= i)
-{
+if (l > i || l == 0)
 putchar((i) + '0');
+if (k > j || k == 0)
 putchar((j) + '0');
 putchar(44);
 putchar(32);
