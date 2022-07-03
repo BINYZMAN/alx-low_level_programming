@@ -20,7 +20,7 @@ for (i = k; i <= 9; i++)
 {
 for (j = l; j <= 9; j++)
 {
-if (k == 0 && l == 0 && i == 0 && l == 0)
+if (k == 0 && l == 0 && i == 0 && j == 0)
 j ++;
 if (count == 1)
 {
@@ -32,7 +32,7 @@ putchar((l) + '0');
 putchar(32);
 putchar((i) + '0');
 putchar((j) + '0');
-if (k == 9 && l == 8 && i == 9 && l == 9)
+if (k == 9 && l == 8 && i == 9 && j == 9)
 {
 }
 else
