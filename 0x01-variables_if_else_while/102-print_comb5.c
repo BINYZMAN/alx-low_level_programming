@@ -20,7 +20,7 @@ for (i = k; i <= 9; i++)
 {
 for (j = l; j <= 9; j++)
 {
-if (count == 1;)
+if (count == 1)
 {
 j ++;
 count = 0;
