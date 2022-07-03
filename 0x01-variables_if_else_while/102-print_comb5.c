@@ -25,10 +25,10 @@ if (count == 1)
 j++;
 count = 0;
 }
-putchar((k) +'0');
-putchar((l) +'0');
+putchar((k) + '0');
+putchar((l) + '0');
 putchar(32);
-putchar((i) +'0');
+putchar((i) + '0');
 putchar((j) +'0');
 if (k == 9 && l == 8 && i == 9 && j == 9)
 {
