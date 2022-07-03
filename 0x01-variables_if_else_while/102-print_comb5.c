@@ -21,10 +21,10 @@ for (i = k; i <= 9; i++)
 for (j = l; j <= 9; j++)
 {
 if (k == 0 && l == 0 && i == 0 && j == 0)
-j ++;
+j++;
 if (count == 1)
 {
-j ++;
+j++;
 count = 0;
 }
 putchar((k) + '0');
