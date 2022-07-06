@@ -1,11 +1,10 @@
 #include "main.h"
 /**
- *
- * print_alphabet - Prints alphabets from a to z in small letters
- *
- * Return: 0
- *
- **/
+* print_alphabet - Prints alphabets from a to z in small letters
+*
+* Return: 0
+*
+*/
 void print_alphabet(void)
 {
 int i;
