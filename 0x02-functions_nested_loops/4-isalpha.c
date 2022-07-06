@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * _isalpha - checks whether a char is alpha
-* @c: the char input to be checked 
+* @c: the char input to be checked
 * Return: 0 or 1
 */
 int _isalpha(int c)
