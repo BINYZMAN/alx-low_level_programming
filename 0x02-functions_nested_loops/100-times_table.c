@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* times_table - prints the nine times table
+* print_times_table - prints the nine times table
 *
 * Return: 0
 */
@@ -13,10 +13,10 @@ int rep;
 
 if (n < 15 || n < 0)
 {
-while (i < (n+1))
+while (i < (n + 1))
 {
 j = 0;
-while (j < (n+1))
+while (j < (n + 1))
 {
 rep = i * j;
 if (j == 0)
