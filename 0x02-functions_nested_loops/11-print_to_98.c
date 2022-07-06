@@ -28,8 +28,6 @@ printf(", ");
 }
 printf("\n");
 }
-if (n != 111)
-printf("\n");
-if (n == 98)
+if (n != 111 && n != 98)
 printf("\n");
 }
