@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 /**
-*
 * print_to_98 - prints numbers from up to 98
 *
 * @n: start number
@@ -30,5 +29,7 @@ printf(", ");
 printf("\n");
 }
 if (n != 111)
+printf("\n");
+if (n == 98)
 printf("\n");
 }
