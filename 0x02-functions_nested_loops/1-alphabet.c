@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *
- *print_alphabet - Prints alphabets from a to z in small letters
+ * print_alphabet - Prints alphabets from a to z in small letters
  *
  * Return: 0
  *
