@@ -29,5 +29,6 @@ printf(", ");
 }
 printf("\n");
 }
+if (n != 111)
 printf("\n");
 }
