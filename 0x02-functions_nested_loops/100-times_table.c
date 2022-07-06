@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * print_times_table - prints the nine times table
-*
+* @n: starts count
 * Return: 0
 */
 
