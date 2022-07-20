@@ -1,14 +1,9 @@
 #include "main.h"
-#include <unistd.h>
 /**
  * _puts_recursion - prints a string given using _putchar
  * @s: string given
  *
  */
-int _putchar(char c)
-{
-    return (write(1, &c, 1));
-}
 
 void _puts_recursion(char *s)
 {
