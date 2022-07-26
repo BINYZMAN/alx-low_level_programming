@@ -75,7 +75,3 @@ char **strtow(char *str)
 
 	return (matrix);
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Term
