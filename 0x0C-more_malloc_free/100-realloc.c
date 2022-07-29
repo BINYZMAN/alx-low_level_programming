@@ -1,55 +1,65 @@
 #include "main.h"
 #include <stdlib.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 /**
- * string_nconcat - concatenates two strings.
- * @s1: first string
- * @s2: second string
- * @n: index
- * Return: char pointer
+ * _memcpy - copies a memory block to another
+ * @dest: destination address
+ * @src: source address
+ * @size: size tobe copied
+ *
+ * Return: Nothing.
+ */
+void _memcpy(void *dest, void *src, unsigned int size)
+{
+	unsigned int i;
+	char *ndest = (char *) dest;
+	char *nsrc = (char *) src;
+
+	for (i = 0; i < size; i++)
+	{
+		ndest[i] = nsrc[i];
+	}
+}
+
+/**
+ * _realloc - reallocates a memory block using malloc and free
+ * @ptr: pointer to the memory space
+ * @old_size: old memory size
+ * @new_size: new memory size
+ *
+ * Return: ptr
+ *
  */
 
-char *string_nconcat(char *s1, char *s2, unsigned int n)
+void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
-	char *p;
-	unsigned int size1 = 0, size2 = 0, i;
+	void *ns;
 
-	if (s1 == NULL)
-		s1 = "";
-
-	if (s2 == NULL)
-		s2 = "";
-
-	while (s1[size1] != '\0')
+	if (ptr == NULL)
 	{
-		size1++;
+		ns = malloc(new_size);
 	}
-
-	while (s2[size2] != '\0')
+	else if (new_size == 0)
 	{
-		size2++;
+		free(ptr);
+		return (NULL);
 	}
-
-	if (n > size2)
-	n = size2;
-	p = malloc((size1 + n + 1) * sizeof(char));
-
-	if (p == NULL)
-		return (0);
-
-	for (i = 0; i < size1; i++)
+	else
 	{
-		p[i] = s1[i];
+		if (new_size == old_size)
+		{
+			return (ptr);
+		}
+		else if (new_size > old_size)
+		{
+			ns = malloc(new_size);
+			if (ns == NULL)
+			{
+				return (NULL);
+			}
+			_memcpy(ns, ptr, old_size);
+			free(ptr);
+		}
 	}
-
-	for (; i < (size1 + n); i++)
-	{
-		p[i] = s2[i - size1];
-	}
-	p[i] = '\0';
-
-return (p);
+	return (ns);
 }
