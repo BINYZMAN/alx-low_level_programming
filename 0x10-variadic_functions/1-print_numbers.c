@@ -10,22 +10,18 @@
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
+	va_list valist;
 	unsigned int i;
-	va_list li;
 
-	i = 0;
-	va_start(li, n);
-	while (i < n)
+	va_start(valist, n);
+
+	for (i = 0; i < n; i++)
 	{
-		if (i != n - 1)
-		{
-			printf("%d%s", va_arg(li, int), separator);
-		}
-		else
-		{
-			printf("%d\n", va_arg(li, int));
-		}
-		i++;
+		printf("%d", va_arg(valist, int));
+		if (separator && i < n - 1)
+			printf("%s", separator);
 	}
-	va_end(li);
+
+	printf("\n");
+	va_end(valist);
 }
