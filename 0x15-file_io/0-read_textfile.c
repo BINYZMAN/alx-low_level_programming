@@ -38,4 +38,4 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	free(buf);
 
 	return (nwr);
-}om.facebook.orca;FBLC/en_GB;FBBV/363453956;FBCR/Ethio
+}
